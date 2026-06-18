@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: docker
+  group: docker22
   cancel-in-progress: true
 
 jobs:
